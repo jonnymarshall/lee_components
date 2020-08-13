@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "FuturaPT-Bold";
+  font-family: "Bebas Neue Bold";
   src: url("../fonts/futura-pt-bold.woff") format("woff"), /* Modern Browsers */
     url("../fonts/futura-pt-bold.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
@@ -15,12 +15,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto Condensed Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Condensed Regular'), url('../fonts/RobotoCondensed-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue Bold'), url('../fonts/BebasNeue-Bold.woff') format('woff');
+}
+
 body {
-  font-family: "FuturaPT-Medium";
+  font-family: "Roboto Condensed Regular";
 }
 
 :root {
-  --primary: #9F2B25;
+  --primary: #C90;
   --black: #000000;
   --white: #FFFFFF;
   --dark-red: #7B221D;
@@ -4822,7 +4836,7 @@ ol.no-bullet,ul.no-bullet {
   border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
   transition: background-color .25s ease-out,color .25s ease-out;
-  font-family: FuturaPT-Medium;
+  font-family: Bebas Neue Bold;
   font-size: .875rem;
   -webkit-appearance: none;
   line-height: 1;
@@ -4837,7 +4851,7 @@ ol.no-bullet,ul.no-bullet {
 }
 
 .o-dc-button:focus,.o-dc-button:hover {
-  background-color: var(--dark-red);
+  background-color: var(--black);
   color: #fff
 }
 
@@ -5027,12 +5041,15 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button.white {
   background-color: #fff;
-  color: var(--black)
+  color: var(--black);
+  border: 2px solid var(--black);
 }
 
 .o-dc-button.white:focus,.o-dc-button.white:hover {
-  background-color: #ccc;
-  color: var(--black)
+  background-color: var(--black);
+  color: var(--black);
+  outline: 2px solid var(--white);
+  color: var(--white);
 }
 
 .o-dc-button.dark {
@@ -5042,7 +5059,8 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button.dark:focus,.o-dc-button.dark:hover {
   background-color: var(--white);
-  color: var(--black)
+  color: var(--black);
+  outline: 2px solid var(--black);
 }
 
 .o-dc-button.disabled,.o-dc-button[disabled] {
@@ -6407,7 +6425,7 @@ a.o-dc-button:focus,a.o-dc-button:hover {
 }
 
 .compo-title {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   /* font-style: normal;
   font-weight: 400; */
   color: var(--black);
@@ -6426,7 +6444,7 @@ a.o-dc-button:focus,a.o-dc-button:hover {
 }
 
 .compo-module-title {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   /* font-style: normal;
   font-weight: 400; */
   color: var(--black);
@@ -6452,7 +6470,7 @@ a.o-dc-button:focus,a.o-dc-button:hover {
 }
 
 .compo-module-sub-title {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   /* font-style: normal;
   font-weight: 400; */
   color: var(--black);
@@ -6592,7 +6610,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-text-headline1,h2.o-dc-text-headline1 {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   text-transform: uppercase;
   /* font-style: normal; */
   /* font-weight: 400; */
@@ -6651,7 +6669,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-text-headline2,h2.o-dc-text-headline2 {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   /* font-style: normal;
   font-weight: 400; */
   color: var(--black);
@@ -8681,7 +8699,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-card-title {
-  font-family: FuturaPT-Bold;
+  font-family: Bebas Neue Bold;
   /* font-style: normal;
   font-weight: 400; */
   color: var(--black);
@@ -9576,7 +9594,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .ehover12 {
-  background: var(--lightblue)
+  background: var(--primary)
 }
 
 .ehover12 img {
