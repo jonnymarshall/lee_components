@@ -7396,7 +7396,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .amp-dc-banner .amp-dc-banner-info .o-dc-text-copy {
-  max-width: 400px;
+  /* max-width: 400px; */
   margin: 0
 }
 
