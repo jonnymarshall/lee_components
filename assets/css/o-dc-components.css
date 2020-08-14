@@ -29,10 +29,6 @@
   src: local('Bebas Neue Bold'), url('../fonts/BebasNeue-Bold.woff') format('woff');
 }
 
-body, p {
-  font-family: "Roboto Condensed Regular";
-}
-
 :root {
   --primary-yellow: #C90;
   --black: #000000;
@@ -41,6 +37,15 @@ body, p {
   --grey: #C5C5C5;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bebas Neue Bold";
+  text-transform: uppercase;
+}
+
+body, p {
+  font-family: "Roboto Condensed Regular";
 }
 
 @charset "UTF-8";.subheader {
@@ -10463,33 +10468,72 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 
 /* Marketing Banner */
-/* .c-marketing-banner .amp-dc-slider-next.js_slider_toggle{
-  background-color: black;
-  color: white;
-}
 
-.c-marketing-banner .amp-dc-slider-prev.js_slider_toggle{
-  background-color: black;
-  color: white;
-} */
-
-/* .c-marketing-banner .strip {
-  height:50px;
-  background-color: var(--white);
-} */
-
-.c-carousel-content {
+.c-marketing-banner .c-carousel-content {
   background-color: var(--black);
   color: var(--white);
   padding: 5px;
 }
 
-.c-carousel-content p {
+.c-marketing-banner .c-carousel-content p {
   margin: 0px;
   font-size: 14px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.c-marketing-banner .carousel-control-next, .carousel-control-prev {
   top: initial !important;
   bottom: 4px !important;
+}
+
+/* Cards */
+
+.c-card:hover {
+   color: inherit; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+.c-card {
+  padding: 5%;
+}
+
+.c-card:hover {
+  outline: 1px solid black;
+}
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid var(--black);
+  margin-top: 0.5rem;
+}
+
+.price {
+  display: inline;
+  font-family: "Bebas Neue Bold";
+}
+
+.price.price--old {
+  text-decoration: line-through;
+  margin-right: 0.75rem;
+}
+
+.price.price--new {
+  color: var(--dark-red);
+}
+
+.c-card .card-info-section {
+  position: relative;
+}
+
+.c-card .add-to-basket {
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.c-card .product-name {
+  margin-bottom: 0.4rem;
+  margin-right: 34px;
 }
