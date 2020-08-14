@@ -10488,3 +10488,8 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin: 0px;
   font-size: 14px;
 }
+
+.carousel-control-next, .carousel-control-prev {
+  top: initial !important;
+  bottom: 4px !important;
+}
