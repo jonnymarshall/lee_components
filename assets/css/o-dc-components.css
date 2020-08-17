@@ -6644,17 +6644,20 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .o-dc-text-headline1-large,h2.o-dc-text-headline1-large {
   font-size: 2.5rem;
   margin: 0px;
+  line-height: 2.5rem;
 }
 
 @media print,screen and (min-width: 40em) {
   .o-dc-text-headline1-large,h2.o-dc-text-headline1-large {
-      font-size:3.5rem
+      font-size:3.5rem;
+      line-height: 3.5rem;
   }
 }
 
 @media print,screen and (min-width: 64em) {
   .o-dc-text-headline1-large,h2.o-dc-text-headline1-large {
-      font-size:4.8125rem
+      font-size:4.8125rem;
+      line-height: 5rem;
   }
 }
 
@@ -10549,4 +10552,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-carousel-controls {
   display: flex;
   justify-content: space-between;
+}
+
+/* Utilities */
+
+.mt-0 {
+  margin-top: 0px;
 }
