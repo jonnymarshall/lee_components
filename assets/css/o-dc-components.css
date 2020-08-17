@@ -37,6 +37,7 @@
   --grey: #C5C5C5;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
+  --light-grey: #F3F3F3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9173,7 +9174,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-bg {
-  background: var(--beige);
+  background: var(--light-grey);
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-container-fuller {
@@ -10471,6 +10472,11 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   animation-name: bounce
 }
 
+/* Banner with Text */
+
+.amp-dc-banner-info .o-dc-text-copy-large {
+  margin: 0px;
+}
 
 /* Marketing Banner */
 
