@@ -6642,7 +6642,8 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-text-headline1-large,h2.o-dc-text-headline1-large {
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  margin: 0px;
 }
 
 @media print,screen and (min-width: 40em) {
@@ -6700,7 +6701,8 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-text-headline2-large,h2.o-dc-text-headline2-large {
-  font-size: 1.375rem
+  font-size: 1.375rem;
+  margin: 0px;
 }
 
 @media print,screen and (min-width: 40em) {
@@ -6759,7 +6761,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .o-dc-text-copy-large {
   font-size: 1.1875rem
 }
-
+/* 
 @media print,screen and (min-width: 40em) {
   .o-dc-text-copy-large {
       font-size:1.375rem
@@ -6770,7 +6772,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   .o-dc-text-copy-large {
       font-size:1.375rem
   }
-}
+} */
 
 .o-dc-text-copy-small {
   font-size: .625rem
