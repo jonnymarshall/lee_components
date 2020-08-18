@@ -4838,6 +4838,7 @@ ol.no-bullet,ul.no-bullet {
   vertical-align: middle;
   margin: 0 0 1rem 0;
   padding: 8px 20px;
+  padding-top: 10px;
   border: 1px solid transparent;
   border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
@@ -4875,7 +4876,8 @@ ol.no-bullet,ul.no-bullet {
 }
 
 .o-dc-button.large {
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  padding-top: 12px;
 }
 
 .o-dc-button.expanded {
