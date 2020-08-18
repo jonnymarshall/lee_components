@@ -10491,7 +10491,8 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .c-marketing-banner .carousel-control-next, .carousel-control-prev {
   top: initial !important;
-  bottom: 4px !important;
+  bottom: 5px !important;
+  opacity: 1 !important;
 }
 
 /* Product Cards */
