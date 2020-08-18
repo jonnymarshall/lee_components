@@ -10565,10 +10565,18 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   justify-content: space-between;
 }
 
+.c-card .image-container {
+  height: 280px;
+}
+
 /* Cards */
 
 .o-dc-card-text.centered {
   text-align: center;
+}
+
+.amp-dc-image.image-container {
+  padding: 1rem;
 }
 
 /* Utilities */
