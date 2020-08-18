@@ -5055,7 +5055,10 @@ ol.no-bullet,ul.no-bullet {
 .o-dc-button.white {
   background-color: #fff;
   color: var(--black);
-  border: 2px solid var(--black);
+}
+
+.o-dc-button.white.outline {
+  outline: 2px solid var(--black);
 }
 
 .o-dc-button.white:focus,.o-dc-button.white:hover {
@@ -10582,4 +10585,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .mt-0 {
   margin-top: 0px;
+}
+
+/* Showcasing Layout */
+.c-component-showcase .col-12 > * {
+  display: table;
 }
