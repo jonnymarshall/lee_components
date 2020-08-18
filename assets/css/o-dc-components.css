@@ -4837,7 +4837,7 @@ ol.no-bullet,ul.no-bullet {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 1em 2em;
+  padding: 8px 20px;
   border: 1px solid transparent;
   border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
@@ -4848,8 +4848,13 @@ ol.no-bullet,ul.no-bullet {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: var(--primary-yellow);;
-  color: #fff
+  background-color: var(--primary-yellow);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  line-height: 1.1;
 }
 
 [data-whatinput=mouse] .o-dc-button {
@@ -6292,15 +6297,6 @@ a.o-dc-button:focus,a.o-dc-button:hover {
   .hide-for-landscape,.show-for-portrait {
       display:block!important
   }
-}
-
-.o-dc-button {
-  text-decoration: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: .125rem;
-  border: none;
-  line-height: 1.1
 }
 
 @media screen and (max-width: 39.99875em) {
