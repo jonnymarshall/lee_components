@@ -5078,7 +5078,7 @@ ol.no-bullet,ul.no-bullet {
 }
 
 .o-dc-button.dark:focus,.o-dc-button.dark:hover {
-  background-color: var(--white);
+  background-color: var(--white) !important;
   color: var(--black);
   outline: 2px solid var(--black);
 }
@@ -6903,6 +6903,18 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   content: "";
   background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
   background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.6));
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 100%
+}
+
+.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right--white:before {
+  content: "";
+  background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(256,256,256,.6)));
+  background: linear-gradient(to right,rgba(0,0,0,0),rgba(256,256,256,.6));
   position: absolute;
   z-index: 0;
   width: 100%;
