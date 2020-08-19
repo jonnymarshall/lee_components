@@ -4836,7 +4836,7 @@ ol.no-bullet,ul.no-bullet {
 .o-dc-button {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0 1rem 0;
+  /* margin: 0 0 1rem 0; */
   padding: 8px 20px;
   padding-top: 10px;
   border: 1px solid transparent;
@@ -8478,9 +8478,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   }
 }
 
-.o-dc-card {
+/* .o-dc-card {
   margin-bottom: 1rem
-}
+} */
 
 .o-dc-card a {
   display: block;
@@ -8669,7 +8669,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .o-dc-text-panel {
   width: 100%;
-  padding-bottom: 1.25rem
+  padding-bottom: 0.5rem
 }
 
 .card3 .o-dc-text-panel {
@@ -8718,9 +8718,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   text-rendering: optimizeLegibility;
   text-align: inherit;
   line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: .625rem;
-  margin-bottom: 5px;
+  margin: 0;
   text-transform: uppercase;
   letter-spacing: .075rem;
   font-size: 1rem
@@ -10567,19 +10565,16 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   justify-content: space-between;
 }
 
-.c-card .image-container {
-  height: 280px;
-}
-
 /* Cards */
 
 .o-dc-card-text.centered {
   text-align: center;
 }
 
-/* .amp-dc-image.image-container {
-  padding: 1rem;
-} */
+.card-link {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 
 /* Utilities */
 
@@ -10590,16 +10585,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 /* Showcasing Layout */
 .c-component-showcase .col-12 > * {
   display: table;
+  margin-bottom: 20px;
 }
 
 /* Title */
 .c-title .o-dc-button {
   width: 100%;
-}
-
-
-/* CSS Reset */
-a {
-  text-decoration: none;
-  color: inherit;
 }
