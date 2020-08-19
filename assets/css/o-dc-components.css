@@ -6630,7 +6630,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   text-align: inherit;
   line-height: 1.1;
   margin-top: 0;
-  margin-bottom: .625rem;
+  margin: 0px;
   letter-spacing: .075rem;
   font-size: 1.75rem
 }
@@ -6692,7 +6692,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   text-align: inherit;
   line-height: 1.1;
   margin-top: 0;
-  margin-bottom: .625rem;
+  margin: 0px;
   letter-spacing: .075rem;
   font-size: 1rem
 }
