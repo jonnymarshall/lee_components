@@ -47,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   font-family: "Bebas Neue Bold";
-  color: inherit !important;
 }
 
 body, p {
@@ -5075,7 +5074,7 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button.dark {
   background-color: var(--black);
-  color: var(--white)
+  color: var(--white);
 }
 
 .o-dc-button.dark:focus,.o-dc-button.dark:hover {
@@ -10504,6 +10503,11 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-marketing-banner__link {
   display: flex;
   margin-right: 20px;
+  color: var(--white);
+}
+
+.c-marketing-banner__link:hover {
+  color: var(--white);
 }
 
 .c-marketing-banner__link:not(:last-child):after {
