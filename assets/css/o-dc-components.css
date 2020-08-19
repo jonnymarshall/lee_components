@@ -45,6 +45,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+a {
+  font-family: "Bebas Neue Bold";
+  color: inherit !important;
+}
+
 body, p {
   font-family: "Roboto Condensed Regular";
 }
@@ -10479,13 +10484,13 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 /* Marketing Banner */
 
-.c-marketing-banner .c-carousel-content {
+.c-marketing-banner .c-marketing-banner-content {
   background-color: var(--black);
   color: var(--white);
   padding: 5px;
 }
 
-.c-marketing-banner .c-carousel-content p {
+.c-marketing-banner .c-marketing-banner-content p {
   margin: 0px;
   font-size: 14px;
 }
@@ -10496,6 +10501,19 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   opacity: 1 !important;
 }
 
+.c-marketing-banner__link {
+  display: flex;
+  margin-right: 20px;
+}
+
+.c-marketing-banner__link:not(:last-child):after {
+  margin-left: 20px;
+  content: "∙";
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  height: 15px;
+}
 /* Product Cards */
 
 .c-card:hover {
