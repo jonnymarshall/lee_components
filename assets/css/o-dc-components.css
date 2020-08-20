@@ -10627,3 +10627,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-title .o-dc-button {
   width: 100%;
 }
+
+/* Splitblock */
+
+.c-splitblock--bg {
+  background-color: var(--light-grey);
+}
