@@ -10633,3 +10633,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-splitblock--bg {
   background-color: var(--light-grey);
 }
+
+.c-splitblock__img-container {
+  border: 2px solid var(--black);
+}
