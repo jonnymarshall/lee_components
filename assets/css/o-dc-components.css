@@ -10636,3 +10636,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-splitblock__img-container {
   border: 2px solid var(--black);
 }
+
+
+/* Banner-lower-button */
+.button-container.on-image {
+  bottom: 2rem;
+}
