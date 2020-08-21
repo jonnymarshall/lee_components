@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   font-family: "Bebas Neue Bold";
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 body, p {
@@ -10384,21 +10384,17 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .c-marketing-banner__link {
   display: flex;
-  margin-right: 20px;
+  margin-right: 10px;
   color: var(--white);
+  text-decoration: underline;
 }
 
 .c-marketing-banner__link:hover {
   color: var(--white);
 }
 
-.c-marketing-banner__link:not(:last-child):after {
-  margin-left: 20px;
-  content: "∙";
-  display: inline-block;
-  text-decoration: none;
-  overflow: hidden;
-  height: 15px;
+.c-marketing-banner__link:last-child {
+  margin-right: 0px;
 }
 
 /* Product Cards */
