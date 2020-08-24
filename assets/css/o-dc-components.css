@@ -4841,7 +4841,7 @@ ol.no-bullet,ul.no-bullet {
 .o-dc-button {
   display: inline-block;
   vertical-align: middle;
-  /* margin: 0 0 1rem 0; */
+  cursor: pointer;
   padding: 12px 10px 8px 10px;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
   transition: background-color .25s ease-out,color .25s ease-out;
@@ -10349,6 +10349,28 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .c-accordion .secondary-selector {
   border-bottom: 1px solid var(--white);
+}
+
+.c-accordion .toggler-arrow {
+  height: 21px;
+  transform: rotate(90deg);
+}
+
+.c-accordion .collapsed > .toggler-arrow {
+  transform: rotate(0deg);
+}
+
+.c-accordion .main-selector {
+  border: 0px;
+}
+
+.c-accordion .main-selector > * {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 /* Marketing Banner */
