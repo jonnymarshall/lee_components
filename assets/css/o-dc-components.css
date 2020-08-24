@@ -10373,6 +10373,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   user-select: none;
 }
 
+.c-accordion .o-dc-button.dark:hover {
+  outline: none;
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
