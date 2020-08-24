@@ -10505,3 +10505,13 @@ button:focus {
 .button-container.on-image {
   bottom: 2rem;
 }
+
+/* Subnavigation */
+
+.c-subnav-row {
+  border-bottom: 1px solid black;
+}
+
+.c-subnav-link:hover {
+  background-color: var(--light-grey)
+}
