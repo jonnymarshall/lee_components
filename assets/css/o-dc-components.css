@@ -10379,7 +10379,6 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   display: flex;
   margin-right: 10px;
   color: var(--white);
-  text-decoration: underline;
 }
 
 .c-marketing-banner__link:hover {
