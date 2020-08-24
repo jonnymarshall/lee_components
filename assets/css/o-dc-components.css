@@ -6349,6 +6349,12 @@ a.o-dc-button:focus,a.o-dc-button:hover {
   border-bottom-width: 2px
 }
 
+
+.o-dc-cta-underline.o-dc-text-bold:hover {
+  text-decoration: none;
+  color: var(--primary-yellow);
+}
+
 .o-dc-cta-underline.small {
   font-size: .75rem
 }
