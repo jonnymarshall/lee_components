@@ -10586,6 +10586,16 @@ button:focus {
   border-bottom: 1px solid black;
 }
 
+.c-subnav-link {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .c-subnav-link {
+    text-align: center;
+  }
+}
+
 .c-subnav-link:hover {
   background-color: var(--light-grey)
 }
