@@ -10524,8 +10524,16 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   right: 15px;
   cursor: pointer;
   border: 2px solid;
+  border-radius: 100%;
   padding: 2px;
   height: 30px;
+  transition: 750ms ease;
+  transition-property: all;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+.expand-icon:hover {
+  background-color: rgba(204, 153, 0, 0.75);
 }
 
 /* CSS Reset */
@@ -10625,7 +10633,7 @@ button:focus {
 
 .hotspot__point:hover {
   transform: rotate(45deg) scale(1.15);
-  background-color: rgba(204, 153, 0);
+  background-color: rgba(204, 153, 0, 0.75);
   border-radius: 100%;
 }
 
