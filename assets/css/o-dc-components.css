@@ -10536,6 +10536,14 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   background-color: rgba(204, 153, 0, 0.75);
 }
 
+.fabric {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 /* CSS Reset */
 button:focus {
   outline: none !important;
