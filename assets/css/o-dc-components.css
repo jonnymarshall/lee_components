@@ -10599,3 +10599,44 @@ button:focus {
 .c-subnav-link:hover {
   background-color: var(--light-grey)
 }
+
+/* Hotspot */
+.hotspot__image {
+  width: 100%;
+}
+
+.hotspot__point {
+  position: absolute;
+  transform-origin: center center;
+  cursor: pointer;
+  transform: rotate(0deg) scale(1);
+  transition: 750ms ease;
+  transition-property: all;
+  border-radius: 100%;
+}
+
+.hotspot__point--black {
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+.hotspot__point--white {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hotspot__point:hover {
+  transform: rotate(45deg) scale(1.15);
+  background-color: rgba(204, 153, 0);
+  border-radius: 100%;
+}
+
+.hotspot__point--large {
+  height: 15%;
+}
+
+.hotspot__point--medium {
+  height: 10%;
+}
+
+.hotspot__point--small {
+  height: 5%;
+}
