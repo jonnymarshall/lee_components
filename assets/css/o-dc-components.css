@@ -10545,8 +10545,12 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   bottom: 0;
 }
 
-.swatch-pagination {
-  display: inline-flex;
+.c-card .image-container > img {
+  display: none;
+}
+
+.c-card .image-container > img.active {
+  display: block;
 }
 
 
