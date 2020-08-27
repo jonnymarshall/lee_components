@@ -10545,6 +10545,11 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   bottom: 0;
 }
 
+.swatch-pagination {
+  display: inline-flex;
+}
+
+
 /* CSS Reset */
 button:focus {
   outline: none !important;
