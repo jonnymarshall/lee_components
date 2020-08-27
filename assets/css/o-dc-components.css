@@ -10545,7 +10545,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   bottom: 0;
 }
 
-.c-card .image-container > img {
+.c-card .image-container .product-image {
   display: none;
 }
 
@@ -10648,4 +10648,39 @@ button:focus {
   transform: rotate(45deg) scale(1.15);
   background-color: rgba(204, 153, 0, 0.75);
   border-radius: 100%;
+}
+
+/* Flickety Carousel */
+.carousel {
+  background:white;
+}
+
+.flickity-slider {
+  margin-top: 1px;
+}
+
+.carousel-cell {
+  width: 33%;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+@media (max-width: 960px) {
+  .carousel-cell {
+    width: 40%;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel-cell {
+    width: 60%;
+  }
+}
+
+@media (max-width: 540px) {
+  .carousel-cell {
+    width: 80%;
+  }
 }

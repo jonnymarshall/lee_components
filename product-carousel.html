@@ -6,425 +6,237 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card | Lee content types</title>
+    <title>Product Carousel | Lee content types</title>
     <link rel="stylesheet" href="assets/css/app.css?v=18">
 		<link rel="stylesheet" href="assets/css/o-dc-components.css?v=18">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="icon" href="https://www.kipling.com/skin/frontend/vf/kipling17/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="https://www.kipling.com/skin/frontend/vf/kipling17/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="https://www.kipling.com/skin/frontend/vf/kipling17/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://www.kipling.com/skin/frontend/vf/kipling17/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://www.kipling.com/skin/frontend/vf/kipling17/images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   </head>
   <body class="card-page" id="js_wireframe_detail">
 
     <div class="container">
-      <h1 class="compo-title"><a href="index.html" class="o-dc-float-cta">Contents page</a>Card</h1>
+      <h1 class="compo-title"><a href="index.html" class="o-dc-float-cta">Contents page</a>Product Carousel</h1>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <!-- First -->
-          <p>I am one</p>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators0" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators0" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators0" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators0" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators0" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+
+    <!-- Flickity HTML init -->
+    <div class="container">
+      <div class="carousel"
+      data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell">
+        <div class="container">
+          <div id="card-000" class="c-card">
+            <div class="carousel-inner c-carousel-content mb-2">
+              <div class="d-block w-100 image-container">
+                <img class="product-image active" src="assets/product_images/shorts_front_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_back_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_full_02.png" alt="">
               </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators1" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators1" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators1" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators1" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+              <img class="expand-icon" src="assets/svg/iconfinder_119_Eye_183245.svg"></img>
+            </div>
+            <div class="card-info-section">
+              <div class="container d-flex p-0">
+                <button data-target="#card-000" data-show="0" class="color-swatch js-swatch active mb-2 mr-2">
+                  <img class="fabric" src="https://d2d00szk9na1qq.cloudfront.net/Product/5f482bb7-adf6-43d3-a6b8-0c7bc7749140/Images/Large_UO-437.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="1" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://3.bp.blogspot.com/-iVD5DIcTsko/Uo_2yf9u6FI/AAAAAAAAH5U/xrpvBliuJCk/s1600/_big_vintagefashionguild_36595.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="2" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://5.imimg.com/data5/GR/SA/MY-3749501/cotton-canvas-fabric-250x250.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button class="color-swatch swatch-pagination mb-2">
+                  <img class="swatch-pagination-icon" src="assets/svg/iconfinder_other_1167997.svg"></img>
+                </button>
               </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators2" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators2" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators2" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators2" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+              <h5 class="product-name">MEN’S REGULAR FIT SHORT</h5>
+              <div class="price-container">
+                <p class="price">£13.99</p>
+              </div>
+              <div class="reviews-container">
+                <p>[REVIEWS GO HERE]</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <!-- Second -->
-          <p>I am two</p>
-          <!-- <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators3" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators3" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators3" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators3" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="container">
+          <div id="card-000" class="c-card">
+            <div class="carousel-inner c-carousel-content mb-2">
+              <div class="d-block w-100 image-container">
+                <img class="product-image active" src="assets/product_images/shorts_front_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_back_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_full_02.png" alt="">
               </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators4" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators4" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators4" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators4" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+              <img class="expand-icon" src="assets/svg/iconfinder_119_Eye_183245.svg"></img>
+            </div>
+            <div class="card-info-section">
+              <div class="container d-flex p-0">
+                <button data-target="#card-000" data-show="0" class="color-swatch js-swatch active mb-2 mr-2">
+                  <img class="fabric" src="https://d2d00szk9na1qq.cloudfront.net/Product/5f482bb7-adf6-43d3-a6b8-0c7bc7749140/Images/Large_UO-437.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="1" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://3.bp.blogspot.com/-iVD5DIcTsko/Uo_2yf9u6FI/AAAAAAAAH5U/xrpvBliuJCk/s1600/_big_vintagefashionguild_36595.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="2" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://5.imimg.com/data5/GR/SA/MY-3749501/cotton-canvas-fabric-250x250.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button class="color-swatch swatch-pagination mb-2">
+                  <img class="swatch-pagination-icon" src="assets/svg/iconfinder_other_1167997.svg"></img>
+                </button>
               </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators5" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators5" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators5" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators5" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
+              <h5 class="product-name">MEN’S REGULAR FIT SHORT</h5>
+              <div class="price-container">
+                <p class="price">£13.99</p>
+              </div>
+              <div class="reviews-container">
+                <p>[REVIEWS GO HERE]</p>
               </div>
             </div>
-          </div> -->
-        </div>
-        <!-- Third -->
-        <div class="carousel-item">
-          <p>I am three</p>
-          <!-- <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators6" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators6" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators6" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators6" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators7" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators7" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators7" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators7" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="c-card">
-                  <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel" data-interval="false">
-                    <div class="carousel-inner c-carousel-content">
-                      <div class="carousel-item active">
-                        <div class="d-block w-100 text-center">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="d-block w-100">
-                          <img src="assets/img/card1b.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-info-section">
-                      <h4 class="product-name">some name</h4>
-                      <a href="#addtobasket"><img class="add-to-basket" src="assets/svg/add-to-basket.svg" alt=""></a>
-                      <div class="price-container">
-                        <p class="price price--old">£13.99</p><p class="price price--new">£13.99</p>
-                      </div>
-                      <div data-target="#carouselExampleIndicators8" data-slide-to="0" class="active" ></div>
-                      <div data-target="#carouselExampleIndicators8" data-slide-to="1" class="color-swatch" style="background-color: blue;"></div>
-                      <div data-target="#carouselExampleIndicators8" data-slide-to="2" class="color-swatch" style="background-color: black;"></div>
-                      <div data-target="#carouselExampleIndicators8" data-slide-to="3" class="color-swatch" style="background-color: grey;"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+          </div>
         </div>
       </div>
-      <div class="c-carousel-controls">
-        <a class="temp-carousel-toggle" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="temp-carousel-toggle" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        <!-- <a class="carousel-control-prev" style="background-color: black;" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" style="background-color: black;" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span> -->
-        </a>
+      <div class="carousel-cell">
+        <div class="container">
+          <div id="card-000" class="c-card">
+            <div class="carousel-inner c-carousel-content mb-2">
+              <div class="d-block w-100 image-container">
+                <img class="product-image active" src="assets/product_images/shorts_front_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_back_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_full_02.png" alt="">
+              </div>
+              <img class="expand-icon" src="assets/svg/iconfinder_119_Eye_183245.svg"></img>
+            </div>
+            <div class="card-info-section">
+              <div class="container d-flex p-0">
+                <button data-target="#card-000" data-show="0" class="color-swatch js-swatch active mb-2 mr-2">
+                  <img class="fabric" src="https://d2d00szk9na1qq.cloudfront.net/Product/5f482bb7-adf6-43d3-a6b8-0c7bc7749140/Images/Large_UO-437.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="1" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://3.bp.blogspot.com/-iVD5DIcTsko/Uo_2yf9u6FI/AAAAAAAAH5U/xrpvBliuJCk/s1600/_big_vintagefashionguild_36595.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="2" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://5.imimg.com/data5/GR/SA/MY-3749501/cotton-canvas-fabric-250x250.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button class="color-swatch swatch-pagination mb-2">
+                  <img class="swatch-pagination-icon" src="assets/svg/iconfinder_other_1167997.svg"></img>
+                </button>
+              </div>
+              <h5 class="product-name">MEN’S REGULAR FIT SHORT</h5>
+              <div class="price-container">
+                <p class="price">£13.99</p>
+              </div>
+              <div class="reviews-container">
+                <p>[REVIEWS GO HERE]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="container">
+          <div id="card-000" class="c-card">
+            <div class="carousel-inner c-carousel-content mb-2">
+              <div class="d-block w-100 image-container">
+                <img class="product-image active" src="assets/product_images/shorts_front_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_back_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_full_02.png" alt="">
+              </div>
+              <img class="expand-icon" src="assets/svg/iconfinder_119_Eye_183245.svg"></img>
+            </div>
+            <div class="card-info-section">
+              <div class="container d-flex p-0">
+                <button data-target="#card-000" data-show="0" class="color-swatch js-swatch active mb-2 mr-2">
+                  <img class="fabric" src="https://d2d00szk9na1qq.cloudfront.net/Product/5f482bb7-adf6-43d3-a6b8-0c7bc7749140/Images/Large_UO-437.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="1" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://3.bp.blogspot.com/-iVD5DIcTsko/Uo_2yf9u6FI/AAAAAAAAH5U/xrpvBliuJCk/s1600/_big_vintagefashionguild_36595.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="2" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://5.imimg.com/data5/GR/SA/MY-3749501/cotton-canvas-fabric-250x250.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button class="color-swatch swatch-pagination mb-2">
+                  <img class="swatch-pagination-icon" src="assets/svg/iconfinder_other_1167997.svg"></img>
+                </button>
+              </div>
+              <h5 class="product-name">MEN’S REGULAR FIT SHORT</h5>
+              <div class="price-container">
+                <p class="price">£13.99</p>
+              </div>
+              <div class="reviews-container">
+                <p>[REVIEWS GO HERE]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="container">
+          <div id="card-000" class="c-card">
+            <div class="carousel-inner c-carousel-content mb-2">
+              <div class="d-block w-100 image-container">
+                <img class="product-image active" src="assets/product_images/shorts_front_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_back_02.png" alt="">
+                <img class="product-image" src="assets/product_images/shorts_full_02.png" alt="">
+              </div>
+              <img class="expand-icon" src="assets/svg/iconfinder_119_Eye_183245.svg"></img>
+            </div>
+            <div class="card-info-section">
+              <div class="container d-flex p-0">
+                <button data-target="#card-000" data-show="0" class="color-swatch js-swatch active mb-2 mr-2">
+                  <img class="fabric" src="https://d2d00szk9na1qq.cloudfront.net/Product/5f482bb7-adf6-43d3-a6b8-0c7bc7749140/Images/Large_UO-437.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="1" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://3.bp.blogspot.com/-iVD5DIcTsko/Uo_2yf9u6FI/AAAAAAAAH5U/xrpvBliuJCk/s1600/_big_vintagefashionguild_36595.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button data-target="#card-000" data-show="2" class="color-swatch js-swatch mb-2 mr-2">
+                  <img class="fabric" src="https://5.imimg.com/data5/GR/SA/MY-3749501/cotton-canvas-fabric-250x250.jpg"></img>
+                  <img class="active-tick" src="assets/svg/iconfinder_Tick_Mark_Circle_1398913_black.svg"></img>
+                </button>
+                <button class="color-swatch swatch-pagination mb-2">
+                  <img class="swatch-pagination-icon" src="assets/svg/iconfinder_other_1167997.svg"></img>
+                </button>
+              </div>
+              <h5 class="product-name">MEN’S REGULAR FIT SHORT</h5>
+              <div class="price-container">
+                <p class="price">£13.99</p>
+              </div>
+              <div class="reviews-container">
+                <p>[REVIEWS GO HERE]</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    </div>
+    
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="assets/jsplugins/o-dc-components.js?v=18"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/jsplugins/flickety.js"></script>
+
   </body>
 </html>
