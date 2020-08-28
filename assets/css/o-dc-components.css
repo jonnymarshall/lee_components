@@ -35,6 +35,7 @@
   --white: #FFFFFF;
   --dark-red: #7B221D;
   --grey: #C5C5C5;
+  --dark-grey: #777777;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
   --light-grey: #F3F3F3;
@@ -10667,6 +10668,33 @@ button:focus {
   counter-increment: carousel-cell;
 }
 
+.flickity-button.flickity-prev-next-button {
+  top: 40%;
+  border-radius: 0px;
+  color: white;
+  background-color: var(--primary-yellow);
+  -webkit-transition: background-color .25s ease-out,color .25s ease-out;
+  transition: background-color .25s ease-out,color .25s ease-out;
+}
+
+.flickity-button.flickity-prev-next-button:hover {
+  border-radius: 0px;
+  color: white;
+  background-color: var(--black);
+}
+
+.flickity-button.flickity-prev-next-button.next {
+  right: -50px;
+}
+
+.flickity-button.flickity-prev-next-button.previous {
+  left: -50px;
+}
+
+.flickity-page-dots .dot {
+  background-color: var(--dark-grey) !important;
+}
+
 @media (max-width: 960px) {
   .carousel-cell {
     width: 40%;
@@ -10683,4 +10711,8 @@ button:focus {
   .carousel-cell {
     width: 80%;
   }
+}
+
+.card-lower-spacer {
+  height: 2px;
 }
