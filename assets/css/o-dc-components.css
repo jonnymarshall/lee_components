@@ -10342,11 +10342,11 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   height: 21px;
   right: 10px;
   top: 12px;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .c-subnav-accordion .collapsed > .toggler-arrow {
-  transform: rotate(0deg);
+  transform: rotate(90deg);
 }
 
 .c-subnav-accordion .secondary-button {
