@@ -10380,8 +10380,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .c-marketing-banner .carousel-control-next, .carousel-control-prev {
-  top: initial !important;
-  bottom: 5px !important;
+  /* top: initial !important; */
   opacity: 1 !important;
 }
 
@@ -10435,6 +10434,14 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .c-marketing-banner .blocker.blocker--right {
   right: 0;
+}
+
+.c-marketing-banner .arrow-icon {
+  height: 30px;
+}
+
+.c-marketing-banner .arrow-icon--prev {
+  transform: rotate(180deg);
 }
 
 /* Product Cards */
