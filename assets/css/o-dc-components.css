@@ -10574,6 +10574,12 @@ button:focus {
   margin-top: 0px;
 }
 
+@media (max-width: 768px) {
+  .u-sm-w-100 {
+    width: 100%;
+  }
+}
+
 /* Showcasing Layout */
 .c-component-showcase .col-12 > * {
   display: table;
