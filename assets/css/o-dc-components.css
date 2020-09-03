@@ -38,7 +38,8 @@
   --dark-grey: #777777;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
-  --light-grey: #F3F3F3;
+  --light-grey-s1: #F3F3F3;
+  --light-grey-s2: #D3D3D3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8998,7 +8999,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-bg {
-  background: var(--light-grey);
+  background: var(--light-grey-s1);
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-container-fuller {
@@ -10598,7 +10599,7 @@ button:focus {
 /* Splitblock */
 
 .c-splitblock--bg {
-  background-color: var(--light-grey);
+  background-color: var(--light-grey-s1);
 }
 
 .c-splitblock__img-container--black {
@@ -10625,7 +10626,11 @@ button:focus {
 }
 
 .c-subnav-link:hover {
-  background-color: var(--light-grey)
+  background-color: var(--light-grey-s1);
+}
+
+.c-subnav-link:focus {
+  background-color: var(--light-grey-s2);
 }
 
 /* Hotspot */
