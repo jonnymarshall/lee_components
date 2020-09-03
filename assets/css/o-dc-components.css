@@ -10361,6 +10361,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   background-color: var(--primary-yellow);
 }
 
+.c-subnav-accordion .card:not(:last-child) {
+  border-bottom: 0px;
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
