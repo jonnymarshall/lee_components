@@ -10735,3 +10735,48 @@ button:focus {
 .card-lower-spacer {
   height: 2px;
 }
+
+/* Slick Slider */
+
+.c-arrow {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  background-color: var(--primary-yellow);
+}
+
+.c-arrow--prev {
+  left: 0;
+}
+
+.c-arrow--next {
+  right: 0;
+}
+
+.c-arrow__icon {
+  top: 0;
+  left: 0;
+}
+
+.c-arrow__icon--prev {
+  transform: rotate(180deg);
+  left: -4px;
+}
+
+.c-arrow__icon--next {
+  left: 4px;
+}
+
+.slick-list {
+  padding: 1px !important;
+}
+
+@media (max-width: 768px) {
+  .slick-list {
+    padding-right: 20% !important;
+    /* 30% mobile */
+    /* 20% tablet */
+  }
+}
