@@ -8548,24 +8548,24 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: .075rem;
-  font-size: 1.5rem
+  font-size: 1.6rem
 }
 
-@media print,screen and (min-width: 40em) {
+@media print,screen and (min-width: 576px) {
   .o-dc-card-title {
-      font-size:1.375rem
+      font-size:1.65rem
   }
 }
 
-@media print,screen and (min-width: 64em) {
+@media print,screen and (min-width: 576px) {
   .o-dc-card-title {
-      font-size:1.125rem
+      font-size:1.7rem
   }
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 768px) {
   .o-dc-card-title {
-      font-size:1.375rem
+      font-size:1.75rem
   }
 }
 
@@ -10590,6 +10590,10 @@ button:focus {
   .u-sm-w-100 {
     width: 100%;
   }
+}
+
+.u-min-w-360px {
+  min-width: 360px;
 }
 
 /* Showcasing Layout */
